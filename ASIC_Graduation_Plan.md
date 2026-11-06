@@ -54,7 +54,7 @@ Board, an $87 FPGA board that works with AMD’s Vivado design software [7]; thi
   Create Github ReadMe files to explain your design process. 
    **Figure 1: Each FPGA Project Builds the Skills for the Next, Ending in a Real ASIC Design**
 
-   ![Quarter-by-quarter FPGA project timeline from a virtual lab to an ASIC capstone](figure1.png)
+   ![Quarter-by-quarter FPGA project timeline from a virtual lab to an ASIC capstone](Figure1.png)
 
    *Source: project ideas from [5], [7], and [8].*
    
