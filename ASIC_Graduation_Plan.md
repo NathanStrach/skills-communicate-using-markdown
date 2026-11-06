@@ -52,7 +52,12 @@ Board, an $87 FPGA board that works with AMD’s Vivado design software [7]; thi
   using your Boolean Board; this will allow for ample time to understand your projects, but not so much time that you graduate without a portfolio to display. Along with these physical projects, documentation
   should be kept up with regularly to later be used to create a portfolio for potential employers to see. Keep code on your Github and use photos and videos to document your projects. 
   Create Github ReadMe files to explain your design process. 
+   **Figure 1: Each FPGA Project Builds the Skills for the Next, Ending in a Real ASIC Design**
 
+   ![Quarter-by-quarter FPGA project timeline from a virtual lab to an ASIC capstone](figure1.png)
+
+   *Source: project ideas from [5], [7], and [8].*
+   
 ## References
 [1] Annapurna Labs (U.S.) Inc., "ASIC Engineer I, Annapurna Labs, Early Career - 2027," Indeed.com, 20 September 2026. [Online]. Available: https://www.indeed.com/viewjob?jk=b780b4650872ad62. [Accessed Oct. 15, 2026].
 [2] University of Washington, "Bachelor of Science in Electrical Engineering," UW General Catalog, n.d. [Online]. Available: https://www.washington.edu/students/gencat/program/B/EngineeringandMathematics-1092.html. [Accessed Oct. 27, 2026].
