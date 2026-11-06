@@ -9,14 +9,13 @@
   - [Bringing Projects to Life](#bringing-projects-to-life)
 - [References](#references)
 ## Purpose
-Application-specific integrated circuit, or ASIC engineers design custom chips that operate inside vehicle systems, networking hardware, and various consumer electronics. 
-These chips are used all around the world by most of the world and to be an ASIC engineer, you as a new graduate must arrive to the workforce bearing the skills of digital design. 
-At UW Bothell you will fill your three upper-division elective slots with courses that will build the foundation for your skills and knowledge. Outside of class you will implement 
-these skills and knowledge into projects using FPGAs which act as programmable versions of an ASIC, almost like a non-optimized ASIC.
-This plan will detail which courses you will take and hardware projects you will tackle in order to graduate with the experience desired by companies hiring ASIC engineers. 
+Application-specific integrated circuit (ASIC) engineers design the custom chips inside vehicle systems, networking hardware, and consumer electronics. To land an entry-level ASIC role, 
+you need to graduate with proven digital design skills. At UW Bothell, your upper-division electives build that foundation, and projects on field-programmable gate arrays (FPGAs),
+which act as programmable versions of an ASIC, let you apply it projects outside of class. This plan covers which courses to take and which hardware projects to tackle so you graduate with 
+the experience that companies hiring ASIC engineers seek.
 
 ## Choosing ASIC-Focused Courses
-As an electrical engineering major at UW Bothell, you are required to take three electives from the 400 range of electrical engineering courses, including one 300-level course. 
+As an electrical engineering major at UW Bothell, you are required to take three electives from the 400 range of electrical engineering courses.
 The following sections will address the three best choices for electives, along with courses outside of the major requirements to be taken. 
 
 ### Digital Design EE Electives
@@ -25,38 +24,40 @@ or HDL, such as Verilog, SystemVerilog, or VHDL [1]. An ideal candidate has a de
 Few courses at UW Bothell teach digital design, and they are as follows: B EE 427, which teaches Verilog and what is known as register transfer level or RTL design; B EE 440, which teaches design for 
 testing through Verilog labs; and B EE 486, which teaches the fabrication of integrated circuits or ICs [3]. Although not part of the elective choices, it should be noted that UW Bothell does offer B EE 475, 
 Introduction to VLSI System Design, which teaches the exact skills required of an ASIC engineer.
-	To best prepare yourself to be an ASIC engineer, make B EE 427, 440, and 486 your elective choices. 
-  If you are able, consult your counselor and swap B EE 486 with B EE 475 to best suit your skill development. 
+
+Make B EE 427, 440, and 486 your elective choices. If you are able, consult your counselor and swap B EE 486 with B EE 475 to best suit your skill development. 
 
 ### Expanding Technical Skills
 According to Annapurna Labs ASIC engineer job listing, in the same breath as digital design proficiency, they seek candidates with knowledge of computer architecture and scripting experience [1]. 
 Ideal candidates will also have research or lab experience in chip design [1]. While there aren’t any EE electives that teach these skills [2], the CSS (Computing and Software Systems) program at 
 UW Bothell offers two courses, CSS 342, which teaches data structures and algorithms, and CSS 422, which teaches computer architecture and organization. 
-	For the most efficient path to becoming an ASIC engineer, take CSS 342 and then CSS 422 early on in your junior year to get ahead on your understanding of digital design. 
+
+Take CSS 342 and then CSS 422 early on in your junior year to get ahead on your understanding of digital design. 
 
 ## Hardware Design Projects
 The following two sections will detail how you will get hands-on experience with skills related to ASIC engineering through means of FPGA projects, digital and then physical. The following figure 
 shows projects you can begin with using FPGA Virtual Lab and then using a physical FPGA board and how they progress in complexity. 
+
 ### Experience Using a Simulated FPGA
-An FPGA is a field-programmable gate array, which is a programmable chip that acts as digital hardware, making FPGAs a great platform for testing chip designs. The Open Source FPGA Foundation offers 
-a free course that can be run from your browser and teaches Verilog through a basic seven-segment display project [5]. The programming and board are all digital, so no real hardware is needed at this
-point; this browser-based FPGA simulator is the best way for you to get started once your junior year has begun. 
-	During your first quarter of your junior year, complete the Open Source FPGA course while taking B EE 271 to double down on your understanding of basic Verilog syntax and FPGA programming. 
-  Once complete, make this project your own by adding an additional feature such as a counter reset button. 
+An FPGA uses a reprogrammable chip that acts as custom digital hardware, which makes it a practical platform for testing chip designs. The Open Source FPGA Foundation offers a free course that is accessible
+in your browser and teaches Verilog through a seven-segment display project on a virtual board.5 A physical FPGA is not needed to learn on this simulator so there is no need to spend money on an FPGA.
+
+Complete the Open Source FPGA course during the fall quarter of your junior year, then make the project your own by adding a feature such as a counter reset button.
 
 ### Bringing Projects to Life
-The virtual simulator is where you should start, but it does not simulate real-life debugging. A physical board gives you real inputs and outputs to integrate with other parts, and experience integrating 
-parts outside of just the FPGA board is necessary; employers don’t want students coming into a job needing to be taught [6]. To get started with your first FPGA, you will purchase an AMD RealDigital Boolean 
-Board, an $87 FPGA board that works with AMD’s Vivado design software [7]; this board is far more affordable than many of its competitors.
-	Buying the AMD board is affordable and will give you ample resources for troubleshooting, as the board is widely used [7]. After finishing the virtual course, maintain a pace of one physical project per quarter 
-  using your Boolean Board; this will allow for ample time to understand your projects, but not so much time that you graduate without a portfolio to display. Along with these physical projects, documentation
-  should be kept up with regularly to later be used to create a portfolio for potential employers to see. Keep code on your Github and use photos and videos to document your projects. 
-  Create Github ReadMe files to explain your design process. 
-   **Figure 1: Each FPGA Project Builds the Skills for the Next, Ending in a Real ASIC Design**
+A simulator cannot reproduce real-world debugging. A physical board adds real inputs, outputs, and timing, and employers expect graduates to join the workforce with that practical experience. As one University of Illinois 
+professors said of his hands-on chip design course, "Companies don't want students learning this on the job."9 The AMD RealDigital Boolean Board costs $87 and works with AMD's Vivado design software, which makes 
+physical practice affordable for students.6
 
-   ![Quarter-by-quarter FPGA project timeline from a virtual lab to an ASIC capstone](Figure1.png)
+Buy a Boolean Board after finishing the virtual course, and complete one physical project per quarter, following the sequence in Figure 1. Document each project as you go: keep your code on GitHub, record photos 
+and videos, and write a README that explains your design decisions. Combine these records into a portfolio to show employers.
 
-   *Source: project ideas from [5], [7], and [8].*
+
+**Figure 1: Each FPGA Project Builds the Skills for the Next**
+
+![Quarter-by-quarter FPGA project timeline from a virtual lab to an ASIC capstone](Figure1.png)
+
+*Source: project ideas from [5], [7], and [8].*
    
 ## References
 [1] Annapurna Labs (U.S.) Inc., "ASIC Engineer I, Annapurna Labs, Early Career - 2027," Indeed.com, 20 September 2026. [Online]. Available: https://www.indeed.com/viewjob?jk=b780b4650872ad62. [Accessed Oct. 15, 2026].
