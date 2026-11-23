@@ -1,4 +1,7 @@
 # Graduating Ready to Be an ASIC Engineer
+![Altera DE2-115 FPGA board connected to an oscilloscope](cover.jpg)
+
+*© Calvin Evans, Ampheo blog ("How to Become and FPGA Engineer")*
 ## Table of Contents
 - [Purpose](#purpose)
 - [Choosing ASIC-Focused Courses](#choosing-asic-focused-courses)
