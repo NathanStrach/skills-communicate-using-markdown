@@ -1,7 +1,7 @@
 # Graduating Ready to Be an ASIC Engineer
 ![Altera DE2-115 FPGA board connected to an oscilloscope](cover.jpg)
 
-*© Calvin Evans, Ampheo blog ("How to Become and FPGA Engineer")*
+*© Calvin Evans, Ampheo blog ("How to Become an FPGA Engineer")*
 
 **Prepared for:** Husky student pursuing a job as an ASIC engineer\
 **Prepared by:** Nathan Strach\
@@ -19,19 +19,19 @@
   - [Bringing Projects to Life](#bringing-projects-to-life)
 - [References](#references)
 ## Purpose
-Companies hiring entry-level application-specific integrated circuit (ASIC) engineers expect new graduates to arrive with digital design skills they can use on day one. These skills include a hardware description language, knowledge of computer architecture, and hands-on lab experience[^1]. At UW Bothell, your uppper-division electives build that foundation, and projects on field-programmable gate arrays (FPGAs), which act as programmable versions of an ASIC, let you apply it outside of class. This plan covers which courses to take and which hardware projects to tackle so you graduate with the experience those employers seek.
+Companies hiring entry-level application-specific integrated circuit (ASIC) engineers expect new graduates to arrive with digital design skills they can use on day one. These skills include a hardware description language, knowledge of computer architecture, and hands-on lab experience[^1]. At UW Bothell, your upper-division electives build that foundation, and projects on field-programmable gate arrays (FPGAs), which act as programmable versions of an ASIC, let you apply it outside of class. This plan covers which courses to take and which hardware projects to tackle so you graduate with the experience those employers seek.
 
 ## Choosing ASIC-Focused Courses
-As an electrical engineering major at UW Bothell, you are required to take three electives from the 400 range of electrical engineering courses.
-The following sections cover address the three best choices for electives, along with courses outside your major that fill the remaining gaps. 
+As an electrical engineering major at UW Bothell, you are required to take three electives from an approved range of electrical engineering courses.
+The following sections cover the three best choices for electives, along with courses outside your major that fill the remaining gaps. 
 
 ### Selecting Digital Design EE Electives
-Entry-level positions for ASIC engineers seek candidates with specific skills. Annapurna Labs, one of Amazon’s labs that designs custom chips, requires proficiency in a hardware description language, or HDL, such as Verilog or SystemVerilog [^1]. An ideal candidate has a degree focusing on very large-scale integration or VLSI, more commonly referred to as digital design [^1]. Few courses at UW Bothell teach digital design, they are as follows: B EE 427, which teaches Verilog and register transfer level (RTL) design; B EE 440, which teaches design for testing through Verilog labs; and B EE 486, which teaches the fabrication of integrated circuits or ICs [^3]. B EE 475, Introduction to VLSI System Design, teaches the most ASIC-specific skills of any UW Bothell course but does not appear on the approved elective list[^2]
+Entry-level positions for ASIC engineers seek candidates with specific skills. Annapurna Labs, one of Amazon’s labs that designs custom chips, requires proficiency in a hardware description language, or HDL, such as Verilog or SystemVerilog [^1]. An ideal candidate has a degree focusing on very large-scale integration or VLSI, more commonly referred to as digital design [^1]. Few courses at UW Bothell teach digital design, they are as follows: B EE 427, which teaches Verilog and register transfer level (RTL) design; B EE 440, which teaches design for testing through Verilog labs; and B EE 486, which teaches the fabrication of integrated circuits or ICs [^3]. B EE 475, Introduction to VLSI System Design, teaches the most ASIC-specific skills of any UW Bothell course but does not appear on the approved elective list [^2].
 
 Make B EE 427, 440, and 486 your three elective choices and take B EE 475 as an additional course in your senior year.
 
 ### Expanding Technical Skills
-The same listing asks for knowledge of computer architecture and scripting experience, along with research or lab experience in chip design[^1]. No approved EE elective teaches these skills[^2], but the Computing and Software Systems (CSS) program offers CSS 342, which teaches data structues and algorithms, and CSS 422, which teaches computer artchitecture and organization[^4].
+The same listing asks for knowledge of computer architecture and scripting experience, along with research or lab experience in chip design[^1]. No approved EE elective teaches these skills[^2], but the Computing and Software Systems (CSS) program offers CSS 342, which teaches data structures and algorithms, and CSS 422, which teaches computer architecture and organization[^4].
 
 Take CSS 342 and then CSS 422 early on in your junior year to build your understanding of computer architecture. 
 
