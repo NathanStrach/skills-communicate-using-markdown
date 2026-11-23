@@ -12,40 +12,32 @@
 ## Table of Contents
 - [Purpose](#purpose)
 - [Choosing ASIC-Focused Courses](#choosing-asic-focused-courses)
-  - [Selecting Digital Design Electives](#digital-design-ee-electives)
+  - [Selecting Digital Design Electives](#selecting-digital-design-ee-electives)
   - [Expanding Technical Skills](#expanding-technical-skills)
-- [Building Hardware Design Projects](#hardware-design-projects)
-  - [Gaining Experience Using a Simulated FPGA](#experience-using-a-simulated-fpga)
+- [Building Hardware Design Projects](#building-hardware-design-projects)
+  - [Gaining Experience Using a Simulated FPGA](#gaining-experience-using-a-simulated-fpga)
   - [Bringing Projects to Life](#bringing-projects-to-life)
 - [References](#references)
 ## Purpose
-Application-specific integrated circuit (ASIC) engineers design the custom chips inside vehicle systems, networking hardware, and consumer electronics. To land an entry-level ASIC role, 
-you need to graduate with proven digital design skills. At UW Bothell, your upper-division electives build that foundation, and projects on field-programmable gate arrays (FPGAs),
-which act as programmable versions of an ASIC, let you apply it to projects outside of class. This plan covers which courses to take and which hardware projects to tackle so you graduate with 
-the experience that companies hiring ASIC engineers seek.
+Companies hiring entry-level application-specific integrated circuit (ASIC) engineers expect new graduates to arrive with digital design skills they can use on day one. sa
+Application-specific integrated circuit (ASIC) engineers design the custom chips inside vehicle systems, networking hardware, and consumer electronics. These skills include a hardware description language, knowledge of computer architecture, and hands-on lab experience[^1]. At UW Bothell, your uppper-division electives build that foundation, and projects on field-programmable gate arrays (FPGAs), which act as programmable versions of an ASIC, let you apply it outside of class. This plan covers which courses to take and which hardware projects to tackle so you graduate with the experience those employers seek.
 
 ## Choosing ASIC-Focused Courses
 As an electrical engineering major at UW Bothell, you are required to take three electives from the 400 range of electrical engineering courses.
-The following sections will address the three best choices for electives, along with courses outside of the major requirements to be taken. 
+The following sections cover address the three best choices for electives, along with courses outside your major that fill the remaining gaps. 
 
-### Digital Design EE Electives
-Entry-level positions for ASIC engineers seek candidates with specific skills. Annapurna Labs, one of Amazon’s labs that designs custom chips, requires proficiency in a hardware description language, 
-or HDL, such as Verilog or SystemVerilog [^1]. An ideal candidate has a degree focusing on very large-scale integration or VLSI, more commonly referred to as digital design [^1]. 
-Few courses at UW Bothell teach digital design, they are as follows: B EE 427, which teaches Verilog and register transfer level (RTL) design; B EE 440, which teaches design for 
-testing through Verilog labs; and B EE 486, which teaches the fabrication of integrated circuits or ICs [^3]. Although not part of the elective choices, it should be noted that UW Bothell does offer B EE 475, 
-Introduction to VLSI System Design, which teaches the exact skills required of an ASIC engineer.
+### Selecting Digital Design EE Electives
+Entry-level positions for ASIC engineers seek candidates with specific skills. Annapurna Labs, one of Amazon’s labs that designs custom chips, requires proficiency in a hardware description language, or HDL, such as Verilog or SystemVerilog [^1]. An ideal candidate has a degree focusing on very large-scale integration or VLSI, more commonly referred to as digital design [^1]. Few courses at UW Bothell teach digital design, they are as follows: B EE 427, which teaches Verilog and register transfer level (RTL) design; B EE 440, which teaches design for testing through Verilog labs; and B EE 486, which teaches the fabrication of integrated circuits or ICs [^3]. B EE 475, Introduction to VLSI System Design, teaches the most ASIC-specific skills of any UW Bothell course but does not appear on the approved elective list[^2]
 
-Make B EE 427, 440, and 486 your elective choices. If you are able, consult your counselor and swap B EE 486 with B EE 475 to best suit your skill development. 
+Make B EE 427, 440, and 486 your three elective choices and take B EE 475 as an additional course in your senior year.
 
 ### Expanding Technical Skills
-According to Annapurna Labs ASIC engineer job listing, in the same breath as digital design proficiency, they seek candidates with knowledge of computer architecture and scripting experience [^1]. 
-Ideal candidates will also have research or lab experience in chip design [^1]. While there aren’t any EE electives that teach these skills [^2], the CSS (Computing and Software Systems) program at 
-UW Bothell offers two courses, CSS 342, which teaches data structures and algorithms, and CSS 422, which teaches computer architecture and organization [^4]. 
+The same listing asks for knowledge of computer architecture and scripting experience, along with research or lab experience in chip design[^1]. No approved EE elective teaches these skills[^2], but the Computing and Software Systems (CSS) program offers CSS 342, which teaches data structues and algorithms, and CSS 422, which teaches computer artchitecture and organization[^4].
 
-Take CSS 342 and then CSS 422 early on in your junior year to get ahead on your understanding of digital design. 
+Take CSS 342 and then CSS 422 early on in your junior year to build your understanding of computer architecture. 
 
 ## Hardware Design Projects
-The following two sections will detail how you will get hands-on experience with skills related to ASIC engineering through means of FPGA projects, digital and then physical. The following figure 
+This section covers two stages of hands-on FPGA practice including projects on a simulated board then projects on a physical board. The following figure 
 shows projects you can begin with using FPGA Virtual Lab and then using a physical FPGA board and how they progress in complexity. 
 
 
@@ -57,7 +49,7 @@ shows projects you can begin with using FPGA Virtual Lab and then using a physic
    
 ### Experience Using a Simulated FPGA
 An FPGA uses a reprogrammable chip that acts as custom digital hardware, which makes it a practical platform for testing chip designs. The Open Source FPGA Foundation offers a free course that is accessible
-in your browser and teaches Verilog through a seven-segment display project on a virtual board[5]. A physical FPGA is not needed to learn on this simulator so there is no need to spend money on an FPGA.
+in your browser and teaches Verilog through a seven-segment display project on a virtual board[^5]. A physical FPGA is not needed to learn on this simulator so there is no need to spend money on an FPGA.
 
 Complete the Open Source FPGA course during the fall quarter of your junior year, then make the project your own by adding a feature such as a counter reset button.
 
