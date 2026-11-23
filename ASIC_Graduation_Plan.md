@@ -2,13 +2,20 @@
 ![Altera DE2-115 FPGA board connected to an oscilloscope](cover.jpg)
 
 *© Calvin Evans, Ampheo blog ("How to Become and FPGA Engineer")*
+
+**Prepared for:** Husky student pursuing a job as an ASIC engineer
+**Prepared by:** Nathan Strach
+**Date:** November 22, 2026
+
+---
+
 ## Table of Contents
 - [Purpose](#purpose)
 - [Choosing ASIC-Focused Courses](#choosing-asic-focused-courses)
-  - [Digital Design EE Electives](#digital-design-ee-electives)
+  - [Selecting Digital Design Electives](#digital-design-ee-electives)
   - [Expanding Technical Skills](#expanding-technical-skills)
-- [Hardware Design Projects](#hardware-design-projects)
-  - [Experience Using a Simulated FPGA](#experience-using-a-simulated-fpga)
+- [Building Hardware Design Projects](#hardware-design-projects)
+  - [Gaining Experience Using a Simulated FPGA](#experience-using-a-simulated-fpga)
   - [Bringing Projects to Life](#bringing-projects-to-life)
 - [References](#references)
 ## Purpose
@@ -50,7 +57,7 @@ shows projects you can begin with using FPGA Virtual Lab and then using a physic
    
 ### Experience Using a Simulated FPGA
 An FPGA uses a reprogrammable chip that acts as custom digital hardware, which makes it a practical platform for testing chip designs. The Open Source FPGA Foundation offers a free course that is accessible
-in your browser and teaches Verilog through a seven-segment display project on a virtual board.5 A physical FPGA is not needed to learn on this simulator so there is no need to spend money on an FPGA.
+in your browser and teaches Verilog through a seven-segment display project on a virtual board[5]. A physical FPGA is not needed to learn on this simulator so there is no need to spend money on an FPGA.
 
 Complete the Open Source FPGA course during the fall quarter of your junior year, then make the project your own by adding a feature such as a counter reset button.
 
