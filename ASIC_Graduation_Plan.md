@@ -3,8 +3,8 @@
 
 *© Calvin Evans, Ampheo blog ("How to Become and FPGA Engineer")*
 
-**Prepared for:** Husky student pursuing a job as an ASIC engineer
-**Prepared by:** Nathan Strach
+**Prepared for:** Husky student pursuing a job as an ASIC engineer\
+**Prepared by:** Nathan Strach\
 **Date:** November 22, 2026
 
 ---
@@ -19,8 +19,7 @@
   - [Bringing Projects to Life](#bringing-projects-to-life)
 - [References](#references)
 ## Purpose
-Companies hiring entry-level application-specific integrated circuit (ASIC) engineers expect new graduates to arrive with digital design skills they can use on day one. sa
-Application-specific integrated circuit (ASIC) engineers design the custom chips inside vehicle systems, networking hardware, and consumer electronics. These skills include a hardware description language, knowledge of computer architecture, and hands-on lab experience[^1]. At UW Bothell, your uppper-division electives build that foundation, and projects on field-programmable gate arrays (FPGAs), which act as programmable versions of an ASIC, let you apply it outside of class. This plan covers which courses to take and which hardware projects to tackle so you graduate with the experience those employers seek.
+Companies hiring entry-level application-specific integrated circuit (ASIC) engineers expect new graduates to arrive with digital design skills they can use on day one. These skills include a hardware description language, knowledge of computer architecture, and hands-on lab experience[^1]. At UW Bothell, your uppper-division electives build that foundation, and projects on field-programmable gate arrays (FPGAs), which act as programmable versions of an ASIC, let you apply it outside of class. This plan covers which courses to take and which hardware projects to tackle so you graduate with the experience those employers seek.
 
 ## Choosing ASIC-Focused Courses
 As an electrical engineering major at UW Bothell, you are required to take three electives from the 400 range of electrical engineering courses.
@@ -36,18 +35,18 @@ The same listing asks for knowledge of computer architecture and scripting exper
 
 Take CSS 342 and then CSS 422 early on in your junior year to build your understanding of computer architecture. 
 
-## Hardware Design Projects
+## Building Hardware Design Projects
 This section covers two stages of hands-on FPGA practice including projects on a simulated board then projects on a physical board. The following figure 
 shows projects you can begin with using FPGA Virtual Lab and then using a physical FPGA board and how they progress in complexity. 
 
 
-**Figure 1: Each FPGA Project Builds the Skills for the Next**
+**Figure 1: Timeline of FPGA Projects, Each Building the Skills for the Next**
 
 ![Quarter-by-quarter FPGA project timeline from a virtual lab to an ASIC capstone](Figure1.png)
 
 *Source: project ideas from [^5], [^7], and [^8].*
    
-### Experience Using a Simulated FPGA
+### Gaining Experience Using a Simulated FPGA
 An FPGA uses a reprogrammable chip that acts as custom digital hardware, which makes it a practical platform for testing chip designs. The Open Source FPGA Foundation offers a free course that is accessible
 in your browser and teaches Verilog through a seven-segment display project on a virtual board[^5]. A physical FPGA is not needed to learn on this simulator so there is no need to spend money on an FPGA.
 
